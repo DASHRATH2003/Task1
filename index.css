@@ -1,0 +1,181 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #f9c834;
+}
+
+/* Main Content */
+#home img{
+	width: 100%;
+	height: 100vh;
+}
+#home h2 {
+	margin-top: -30%;
+	color: white;
+	text-align: center;
+
+}
+#home p {
+	text-align: center;
+	color: white;
+
+}
+#services h3{
+	color: red;
+	margin-top: 30%;
+	margin-left: 20px;
+
+}
+#services h2{
+	margin-top: 5%;
+	margin-left: 90px;
+	font-size: 45px;
+	
+}
+#services p{
+	margin-left: 90px;
+	font-size: 20px;
+	
+}
+#services img{
+	width: 40%;
+	height: 90vh;
+	margin-left: 50%;
+	margin-top: -30%;
+	
+}
+#services button{
+	padding: 15px 30px;
+	margin-left:20%;
+	margin-top: 50px;
+	border: none;
+	font-size: 24px;
+	border-radius: 10px;
+	background-color: red;
+}
+#services {}
+.column {
+	float: left;
+	width: 20%;
+	height: 40vh;
+	background-color: green;
+	margin: 5px;
+	border-radius: 10px;
+  }
+.column h2{
+	color: white;
+	font-size: 10px;
+	margin-left: 10%;
+	position: absolute;
+	left: -4%;
+}
+.column h4{
+	color: white;
+	font-size: 20px;
+	margin-left: 10%;
+	position: absolute;
+	left: -5%;
+	margin-top: 2%;
+
+}
+
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+.main h2 {
+    color: #444;
+    margin-bottom: 0.5rem;
+}
+.services main h2{
+	margin-left: 90%;
+}
+.main #services{
+	width: 100%;
+	height: 100vh;
+	background-color: red;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+	height: 100vh;
+    margin-top: 2rem;
+}
+.footer p{
+	margin-left: -60%;
+	margin-top:100px;
+}
+.footer ul li{
+	margin-top: -100px;
+
+}
+.footer button{
+	padding: 15px 40px;
+	border: none;
+	border-radius: 10px;
+	margin-left: -60%;
+	margin-top: 50px;
+
+	
+	background-color: rebeccapurple;
+
+}
+.footer h3{
+	margin-left: 60%;
+	margin-top: -90px;
+}
